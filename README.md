@@ -2,7 +2,8 @@
 
 crash reporter for android
 
-####release:[v0.1.0](http://cdn.mmtrix.com/www.apmbe.com/v2.0/wp-content/uploads/2015/03/miles.crashes_0.1.0.jar)
+####release:
+[miles.crashes_0.1.0.jar](http://cdn.mmtrix.com/www.apmbe.com/v2.0/wp-content/uploads/2015/03/miles.crashes_0.1.0.jar)
 
 ####useage: 
 
