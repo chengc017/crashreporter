@@ -8,12 +8,12 @@ crash reporter for android
 CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mobile_crash").start(getApplicationContext());
 
 ###crashdata structure:
-` ``javascript/<br>
-{
-    "protocolVersion": 1,
-    "platform": "Android",
-    "uuid": "设备唯一标识码",
-    "buildId": "",
+` ``javascript
+{\<br>
+    "protocolVersion": 1,\<br> 
+    "platform": "Android",\<br> 
+    "uuid": "设备唯一标识码",\<br> 
+    "buildId": "",\<br> 
     "timestamp": "1970.1.1开始计算的秒数",
     "appToken": "licence key",
     "deviceInfo":{
