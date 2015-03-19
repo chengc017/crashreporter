@@ -8,7 +8,7 @@ crash reporter for android
 CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mobile_crash").start(getApplicationContext());
 
 ###crashdata structure:
-` ``javascript
+` ``javascript/<br>
 {
     "protocolVersion": 1,
     "platform": "Android",
