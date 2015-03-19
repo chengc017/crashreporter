@@ -2,14 +2,14 @@
 
 crash reporter for android
 
-###release:
+####release:
 [miles.crashes_0.1.0.jar](http://cdn.mmtrix.com/www.apmbe.com/v2.0/wp-content/uploads/2015/03/miles.crashes_0.1.0.jar)
 
-###useage: 
+####useage: 
 
 CrashReporter.initialize().usingCollectorAddress("{host}:{port}/{path}").start(getApplicationContext());<br>
 
-####example:<br>
+#####example:<br>
 ```java
 import miles.crashes.CrashReporter;
 public void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public void onCreate(Bundle savedInstanceState) {
     ...
 }
 ```
-###crashdata structure:
+####crashdata structure:
 
 json:<br>
 ```javascript
