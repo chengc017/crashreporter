@@ -9,10 +9,11 @@ CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mo
 
 ###crashdata structure:
 
-{\<br>
-    "protocolVersion": 1,\<br> 
-    "platform": "Android",\<br> 
-    "uuid": "设备唯一标识码",\<br> 
+`''Bash<br>
+{<br>
+    "protocolVersion": 1,<br> 
+    "platform": "Android",<br> 
+    "uuid": "设备唯一标识码",<br> 
     "buildId": "",\<br> 
     "timestamp": "1970.1.1开始计算的秒数",
     "appToken": "licence key",
