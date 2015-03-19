@@ -9,7 +9,8 @@ CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mo
 
 ###crashdata structure:
 
-```json
+json:<br>
+```javascript
 {
     "protocolVersion": 1,
     "platform": "Android",
