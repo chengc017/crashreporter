@@ -6,8 +6,8 @@ crash reporter for android
 [miles.crashes_0.1.0.jar](http://cdn.mmtrix.com/www.apmbe.com/v2.0/wp-content/uploads/2015/03/miles.crashes_0.1.0.jar)
 
 ####useage: 
-
-CrashReporter.initialize().usingCollectorAddress("{host}:{port}/{path}").start(getApplicationContext());
+import miles.crashes.CrashReporter;<br>
+CrashReporter.initialize().usingCollectorAddress("{host}:{port}/{path}").start(getApplicationContext());<br>
 
 example:<br>
 CrashReporter.initialize().usingCollectorAddress("www.mmtrix.com:8080/mobile_crash").start(getApplicationContext());
