@@ -5,7 +5,7 @@ crash reporter for android
 
 ###useage: 
 
-CrashReporter.initialize().usingCollectorAddress({host}:{port}/{path}).start(getApplicationContext());
+CrashReporter.initialize().usingCollectorAddress("{host}:{port}/{path}").start(getApplicationContext());
 
 example:<br>
 CrashReporter.initialize().usingCollectorAddress("www.mmtrix.com:8080/mobile_crash").start(getApplicationContext());
