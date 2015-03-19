@@ -4,10 +4,12 @@ crash reporter for android
 
 
 useage: 
+-------
 
 CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mobile_crash").start(getApplicationContext());
 
 crashdata structure:
+-------
 
 {
     "protocolVersion": 1,
