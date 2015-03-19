@@ -9,7 +9,7 @@ CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mo
 
 ###crashdata structure:
 
-`''Bash<br>
+json:<br>
 {<br>
     "protocolVersion": 1,<br> 
     "platform": "Android",<br> 
@@ -67,4 +67,4 @@ CrashReporter.initialize().usingCollectorAddress("mobile-collector.mmtrix.com/mo
                        ],<br>
     "dataToken": [0, 0]<br>
 }<br>
-`''
+
