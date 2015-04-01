@@ -15,11 +15,11 @@ import miles.crashes.CrashReporter;
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     ...
-    CrashReporter.initialize().usingCollectorAddress("www.mmtrix.com:8080/mobile_crash").start(getApplicationContext());
+    CrashReporter.initialize().usingCollectorAddress("www.apmbe.com:8080/mobile_crash").start(getApplicationContext());
     ...
 }
 ```
-####crashdata structure:
+####crash data structure:
 
 json:<br>
 ```javascript
